@@ -20,14 +20,14 @@ FleetFlow is a desktop application designed for efficient fleet and logistics ma
 
 ### Steps
 
-1.  **Clone the repository:**
+1.  **Clone the repository(or download and unzip it):**
     ```bash
     git clone <repository_url>
     cd fleetflow-app
     ```
     (Note: Replace `<repository_url>` with the actual URL of your GitHub repository once it's created.)
 
-2.  **Create and activate a virtual environment:**
+2.  **Create and activate a virtual environment(optional):**
     It's highly recommended to use a virtual environment to manage project dependencies.
     ```bash
     python3 -m venv .venv
@@ -53,8 +53,11 @@ After setting up the virtual environment and installing dependencies:
     ```cmd
     .venv\Scripts\python -m fleetflow.app
     ```
+    if you don't want to use a virtual environment then simply run:
+   ```cmd
+    .venv\Scripts\python -m fleetflow.app
+    ```
 
-These commands directly use the Python from your virtual environment to start the application, bypassing the need for a separate activation step.
 
 ## Usage
 
