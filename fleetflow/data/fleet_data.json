@@ -1,0 +1,66 @@
+{
+    "users": {
+        "manager@fleetflow.com": {
+            "email": "manager@fleetflow.com",
+            "password": "admin123",
+            "role": "Manager"
+        },
+        "dispatcher@fleetflow.com": {
+            "email": "dispatcher@fleetflow.com",
+            "password": "dispatch123",
+            "role": "Dispatcher"
+        },
+        "safety@fleetflow.com": {
+            "email": "safety@fleetflow.com",
+            "password": "safety123",
+            "role": "Safety"
+        },
+        "finance@fleetflow.com": {
+            "email": "finance@fleetflow.com",
+            "password": "finance123",
+            "role": "Finance"
+        }
+    },
+    "vehicles": {
+        "DDDDD": {
+            "vehicle_id": "DDDDD",
+            "name": "ffff",
+            "max_capacity": 12.0,
+            "odometer": 123,
+            "out_of_service": true,
+            "acquisition_cost": 1111.0,
+            "vehicle_type": "Van",
+            "region": "South",
+            "available": false
+        }
+    },
+    "drivers": {
+        "12": {
+            "driver_id": "12",
+            "name": "dff",
+            "license_expiry": "1000-12-12",
+            "status": "Suspended",
+            "safety_score": 22
+        }
+    },
+    "trips": {},
+    "maintenance_logs": {
+        "efacffce-3f02-4f8b-85fc-142459b0ecfd": {
+            "log_id": "efacffce-3f02-4f8b-85fc-142459b0ecfd",
+            "vehicle_id": "DDDDD",
+            "description": "sdd",
+            "cost": 12.0,
+            "date": "2026-02-21",
+            "status": "Open"
+        }
+    },
+    "fuel_logs": {
+        "9ee66f93-a552-4707-b30c-3c244b3b37ae": {
+            "log_id": "9ee66f93-a552-4707-b30c-3c244b3b37ae",
+            "vehicle_id": "V001",
+            "liters": 30.0,
+            "cost": 45.0,
+            "date": "2024-03-05"
+        }
+    }
+}
