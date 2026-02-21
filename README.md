@@ -56,7 +56,7 @@ After setting up the virtual environment and installing dependencies:
     if you don't want to use a virtual environment then simply run:
    ```cmd
     .venv\Scripts\python -m fleetflow.app
-    ```
+   ```
 
 
 ## Usage
