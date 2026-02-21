@@ -36,32 +36,37 @@ FleetFlow is a desktop application designed for efficient fleet and logistics ma
 
 3.  **Install dependencies:**
     This project primarily uses built-in Python libraries and Tkinter. No external `pip` dependencies are required.
-    ```bash
-    pip install -r requirements.txt
-    ```
-    (Note: `requirements.txt` will be mostly empty, indicating reliance on standard libraries.)
+    (Note: `requirements.txt` is empty, indicating reliance on standard libraries and no external dependencies.)
 
 ## How to Run
 
-1.  **Activate your virtual environment** (if not already active):
+After setting up the virtual environment and installing dependencies:
+
+### On Linux/macOS:
+1.  Make sure you are in the project's root directory.
+2.  Run the application using the python executable inside the virtual environment:
     ```bash
-    source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+    .venv/bin/python -m fleetflow.app
     ```
 
-2.  **Start the application:**
-    ```bash
-    python -m fleetflow.app
+### On Windows:
+1.  Make sure you are in the project's root directory.
+2.  Run the application using the python executable inside the virtual environment:
+    ```cmd
+    .venv\Scripts\python -m fleetflow.app
     ```
+
+These commands directly use the Python from your virtual environment to start the application, bypassing the need for a separate activation step.
 
 ## Usage
 
 ### Login
 -   The application starts with a login screen.
 -   You can log in with different roles to test access control:
-    -   **Email:** `manager@example.com`, **Password:** `password`, **Role:** `Manager`
-    -   **Email:** `dispatcher@example.com`, **Password:** `password`, **Role:** `Dispatcher`
-    -   **Email:** `safety@example.com`, **Password:** `password`, **Role:** `Safety`
-    -   **Email:** `finance@example.com`, **Password:** `password`, **Role:** `Finance`
+    -   **Email:** `manager@fleetflow.com`, **Password:** `admin123`, **Role:** `Manager`
+    -   **Email:** `dispatcher@fleetflow.com`, **Password:** `dispatch123`, **Role:** `Dispatcher`
+    -   **Email:** `safety@fleetflow.com`, **Password:** `safety123`, **Role:** `Safety`
+    -   **Email:** `finance@fleetflow.com`, **Password:** `finance123`, **Role:** `Finance`
 -   (Note: These are example credentials; a real application would have a proper user management system.)
 
 ### Navigation
